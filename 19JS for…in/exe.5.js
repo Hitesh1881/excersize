@@ -9,3 +9,6 @@ let colors = ["red", "green", "blue", "yellow"];
 for (let index in colors) {
     console.log(`index ${index}:${colors[index]}`);
 }
+
+
+///////////////////////////////////
