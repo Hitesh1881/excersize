@@ -2,7 +2,7 @@
 // element in the array. Log the modified array to the console.
 
 
-function calculateSquare(number){
+function calculateSquare(numbers){
     let squaredArray = [];
     
     numbers.forEach(function(number){

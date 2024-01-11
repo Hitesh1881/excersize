@@ -2,13 +2,12 @@
 
 
 function calculateOneWeekFromNow() {
-    var currentDate = new Date();
-  
-    var oneWeekFromNow = new Date(currentDate.getTime() + 7 * 24 * 60 * 60 * 1000);
-  
-    console.log("Current Date and Time:", currentDate);
-    console.log("One Week from Now:", oneWeekFromNow);
-  }
-  
-  calculateOneWeekFromNow();
-  
+  var currentDate = new Date();
+
+  var oneWeekFromNow = new Date(currentDate.getTime() + 7 * 24 * 60 * 60 * 1000);
+
+  console.log("Current Date and Time:", currentDate);
+  console.log("One Week from Now:", oneWeekFromNow);
+}
+
+calculateOneWeekFromNow();

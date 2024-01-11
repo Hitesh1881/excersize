@@ -7,8 +7,8 @@
 
 let sentence = "This is a sample sentence.";
 
-for (let i=0;sentence.length;i++){
-    if(sentence[i]==="a"){
+for (let i = 0; sentence.length; i++) {
+    if (sentence[i] === "a") {
         console.log(`the first occurence of 'a' is at index: ${i}`);
         break;
     }

@@ -2,7 +2,7 @@
 // the sum of all numbers in the array. Log the sum to the console.
 
 
-function calculateSum(number) {
+function calculateSum(numbers) {
     let sum = 0;
 
     numbers.forEach(function (number) {
